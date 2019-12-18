@@ -14,6 +14,7 @@ The following topics has been covered in this Homework:
 * Targetting single and multiple Elements in CSS
 * Inline and block Elemets
 * CSS :Hover
+* Usind style tags inside html to give style to different tags
 * Git Hub
   * Creating and Initialize a repo
   * Clone a repo to local machine
