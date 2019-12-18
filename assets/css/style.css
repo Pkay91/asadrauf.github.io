@@ -76,6 +76,7 @@ p{
     color: #777777;
     padding-right: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.8;
 }
 
 div{
@@ -118,11 +119,12 @@ img:hover{
     background: #ffffff;
     margin: 0px auto;
     margin-top: 25px;
-    
+    margin-bottom: 80px;
+    line-height: 1.8;
        
 }
 body{
-   background-image: url(backgroungPattern.png);
+   background-image: url(../images/backgroungPattern.png);
     margin: 0px auto;
 
    
@@ -132,7 +134,9 @@ body{
 h2{
     float: center;
     color: #4aaaa5;
+    padding-bottom: 5px;
     border-bottom: 2px solid grey;
+    margin-left: 10px;
 
 }
 
