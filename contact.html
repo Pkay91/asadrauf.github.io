@@ -32,53 +32,43 @@ input[type=submit]:hover {
   background-color: #2f7e49;
 }
 
-.container-2 {
-    width: 940px;
-    border: 1px solid #dddddd;
-    margin: 0 auto;
-    margin-top: 20px;
-   padding: 10px 10px 10px 10px;
-    background-color: #ffffff;
-   
-}
 </style>
 
 </head>
 <body>
     <header>
         <div class="container-1">
-            <h1 class="logo">Asad Rauf</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                    
-                </nav>
+        <h1 class="logo">Asad Rauf</h1>
+       <nav>
+          <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          </ul>        
+        </nav>
         </div>
     </header>
-
+    <div class="main">
 
     <div class="container-2">
     <h2>Contact</h2>
 
     <!-- Creating a labels and Button in the end of labels -->
   
-    <label for="fname">First Name</label>
+    <label for="fname">Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
     <label for="fname">Email</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
+    <input type="text" id="fname" name="firstname" placeholder="Your Email..">
     <label for="subject">Message</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
-
     <input type="submit" value="Submit"> <!--No funtionality behind the button-->
   
 </div>
-
+</div>
+     <!-- creating of sticky Footer -->
+    <footer>
+     Copyright &copy; <script>document.write(new Date().getFullYear());</script>, Coding Journey
+    </footer>
 </body>
-<footer>
-  Copyright &copy; <script>document.write(new Date().getFullYear());</script>, Coding Journey
-</footer>
+
 </html>

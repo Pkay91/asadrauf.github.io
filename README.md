@@ -8,6 +8,8 @@ This Portfolio explains about projects and skills that i have gained so far at U
 ## Key Topics Covered in this portfolio
 The following topics has been covered in this Homework:
 * ID's and Classes
+* Naming convention and indendation
+* Clean code practice
 * sections/divs
 * Fixed Header
 * Sticky Footer
